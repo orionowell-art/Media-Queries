@@ -73,6 +73,14 @@ body {
   border-radius: 8px;
 }
 
+/* Styling for tablets */
+@media screen and (max-width: 991px){
+  .light-box{
+    background-color: yellow;
+    color:#2c3e50;
+  }
+}
+
 /* Please write your responsive codes after this comment.
 Do not delete any of the above code. */
 
