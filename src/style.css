@@ -64,6 +64,9 @@ body {
   color: #3498db;
 }
 
+/* Please write your responsive codes after this comment.
+Do not delete any of the above code. */
+
 /* part1 of C1 achieved */
 .light-box{
   background-color: red;
@@ -109,13 +112,38 @@ body {
     background-color: green;
     color: white;
   }
+  }
 
   /* C2 styling for mobile */
   .layout-wrapper{
     flex-direction: column;
   }
-}
 
-/* Please write your responsive codes after this comment.
-Do not delete any of the above code. */
+  .hamburger-icon{
+    display: block;
+  }
+
+  .nav-links{
+    display: none;
+    background-color: #34495e;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    padding: 10px 0px;
+    width: 150px;
+  }
+
+  .nav-links li{
+  margin: 10px 0px;
+  }
+
+  .menu-container:hover .nav-links{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+  }
+
+
+
+
 
