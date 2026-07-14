@@ -109,6 +109,11 @@ body {
     background-color: green;
     color: white;
   }
+
+  /* C2 styling for mobile */
+  .layout-wrapper{
+    flex-direction: column;
+  }
 }
 
 /* Please write your responsive codes after this comment.
