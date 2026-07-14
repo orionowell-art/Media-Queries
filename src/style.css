@@ -81,6 +81,14 @@ body {
   }
 }
 
+/* styling on mobile */
+@media screen and (max-width: 786px){
+  .light-box{
+    background-color: green;
+    color: white;
+  }
+}
+
 /* Please write your responsive codes after this comment.
 Do not delete any of the above code. */
 
